@@ -1,0 +1,13 @@
+prefix=/Users/smandapati/Desktop/Shanmukh/ineuron/Flask 2/vshan
+exec_prefix=/Users/smandapati/Desktop/Shanmukh/ineuron/Flask 2/vshan
+libdir=/Users/smandapati/Desktop/Shanmukh/ineuron/Flask 2/vshan/lib
+sharedlibdir=/Users/smandapati/Desktop/Shanmukh/ineuron/Flask 2/vshan/lib
+includedir=/Users/smandapati/Desktop/Shanmukh/ineuron/Flask 2/vshan/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
